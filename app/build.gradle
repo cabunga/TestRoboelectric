@@ -70,3 +70,5 @@ dependencies {
     androidTestCompile 'org.robolectric:robolectric:3.0'
 
 }
+
+apply from: 'jacoco.gradle'
