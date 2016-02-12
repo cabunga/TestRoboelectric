@@ -51,11 +51,11 @@ project.afterEvaluate {
                 reports {
                     xml{
                         enabled = true
-                        destination="${project.buildDir}/jacoco/jacocoTestReport.xml"
+                        destination="build/jacoco/jacocoTestReport.xml"
                     }
                     html{
                         enabled = true
-                        destination="${project.buildDir}/jacoco/jacocoTestReport.html"
+                        destination="build/jacoco/jacocoTestReport.html"
                     }
                 }
             }
